@@ -108,6 +108,9 @@ ul li{
 
 }
 /*main*/
+#main{
+    padding-top: 96px;
+}
 
 .skillset,.awards,.caeertraits,.recentworks{
     margin-bottom: 100px;
