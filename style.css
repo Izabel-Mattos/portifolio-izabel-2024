@@ -51,12 +51,28 @@ p{
     color: #fff;
 }
 
+
+
 .container{
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
 }
+
+ul{
+
+list-style: none;
+padding-left: 0;
+
+}
+
+ul li{
+    font-size: 20px;  
+    
+}
+
 
  /*HEADER*/
 
@@ -91,6 +107,19 @@ p{
     height: 547px;  
 
 }
+/*main*/
+
+.skillset,.awards,.caeertraits,.recentworks{
+    margin-bottom: 100px;
+}
+
+.recentworks{
+    color: #0699A6;
+    font-size: PT Sans Narrow;
+    line-height: 34px;
+    font-weight: 600;
+
+}
 
 #footer .container{
 
@@ -116,6 +145,9 @@ p{
     justify-content: space-between;     
     
 }
+
+
+
          
     @media screen and (max-width: 768px){
 
