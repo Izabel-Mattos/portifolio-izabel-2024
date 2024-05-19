@@ -17,7 +17,9 @@ h3{
     line-height: 24px;
     letter-spacing: 2px;
     color: #9e8c6c;
+    text-transform: uppercase;
     margin:0 0 10px 0;
+    
 }
 h4{
     font-size: 66px;
@@ -135,6 +137,15 @@ h1{
 h4{
     font-size: 40px;
     line-height: 50px;         
+}
+#main{
+    
+}
+
+#main.skillset,.awards,.caeertraits,.recentworks{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 #footer .container a{
     font-size: 20px;
