@@ -139,17 +139,24 @@ h4{
     line-height: 50px;         
 }
 #main{
+
 }
 #main.skillset,.awards,.caeertraits,.recentworks{
     display: flex;
     flex-direction: column;   
     justify-content: end;
 }
+
+#main .container{
+    font-size: 20px;
+    line-height: 34px;
+} 
+}
 #footer .container a{
     font-size: 20px;
     line-height: 36px;
 }
-}
+
 
 
     
