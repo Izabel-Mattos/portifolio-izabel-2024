@@ -83,9 +83,15 @@ ul li{
 /* ---MAIN ---*/
 #main{
     padding-top: 96px;
+    display: flex;     
+    
+
 }
 .skillset,.awards,.caeertraits,.recentworks{
     margin-bottom: 100px;
+    width: 350px;
+    padding-right: 165px;
+    padding-left: 125px;
 }
 .recentworks{
     color: #0699A6;
@@ -93,6 +99,26 @@ ul li{
     line-height: 34px;
     font-weight: 600;
 }
+
+.sobre{
+    width: 635px;
+    justify-content: space-between;
+    padding-right: 165px;   
+    }
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 635px;
+    height:24px;
+}
+
+.conteudo{
+    width: 635px;   
+     
+}
+   
 /*---FOOTER ---*/
 #footer .container{
     flex-direction: column;
@@ -110,6 +136,7 @@ ul li{
     display: flex;
     justify-content: space-between;       
 } 
+
 /* ---RESPONSIVO ---*/
 @media screen and (max-width: 768px){
 
@@ -138,10 +165,8 @@ h4{
     font-size: 40px;
     line-height: 50px;         
 }
-#main{display: flex;
-    flex-direction: row-reverse;
 
-}
+
 #main.skillset,.awards,.caeertraits,.recentworks{
     display: flex;
     flex-direction: column;   
@@ -151,13 +176,22 @@ h4{
 #main .container{
     font-size: 20px;
     line-height: 34px;
+    max-width: 635px;
+    flex-direction: column;
+   
 } 
+
+.sobre{
+
+    flex-direction: column;
+
 }
 #footer .container a{
     font-size: 20px;
     line-height: 36px;
 }
 
+}
 
 
     
