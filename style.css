@@ -101,7 +101,13 @@ ul li {
 
 /* ---MAIN ---*/
 #main {
+  padding-top: 83px;
   display: flex;
+}
+
+.skill{
+
+  max-width: 350px;
 }
 
 .skillset,
@@ -122,7 +128,7 @@ ul li {
 
 .sobre {
   justify-content: space-between;
-  width: 50%;
+  max-width: 635px;
 }
 
 .titulo {
